@@ -59,4 +59,9 @@ sudo apt install phpmyadmin.
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/d291daaa-43d8-4569-92d1-06c0d593f494" width="50%">
 * **Step 8:** Open VNC Viewer and enter the IP address of your Raspberry Pi. Log in with the Raspberry Pi credentials.
 * **Step 9:**  Control Raspberry Pi through VNC: You can now use the VNC viewer to interact with the Raspberry Pi desktop as if you were physically connected to it. You can launch applications, configure settings, and manage your Raspberry Pi remotely.
+
+.  
+
+**BACHELOR OF SCIENCE IN COMPUTER SCIENCE**  
+**CS 3A_CS 319_INFORMATION ASSURANCE AND SECURITY**
   
