@@ -5,11 +5,23 @@ by Group 7: Maraño, Mary France S., Pajenago, John Mark A., Quial, John Paul A.
 ##  Step-by-step documentation on how to do the following:
 ### 1. Prepare and Install Headless Raspbian OS in Raspberry Pi.
 * **Step 1:** Download Raspbian OS. Head over to (https://www.raspberrypi.com/software/) and download the latest version of Raspbian OS (now called Raspberry Pi OS).
-* **Step 2:** Insert your SD card into your computer and launch Raspberry Pi Imager. Select the "Choose OS" option and navigate to the downloaded Raspbian image file. Choose the SD card and click "Write." This will format the SD card and flash the Raspbian image onto it.
-* **Step 3:** Enable SSH (Headless Setup). Create an empty file named ssh (without any extension) in the root directory of the microSD card. This enables SSH on the Raspberry Pi.
-* **Step 4:** Configure Wi-Fi (Optional).
-* **Step 5:** Boot your Raspberry Pi. Insert the SD card into your Raspberry Pi and connect it to a power source and an ethernet cable. The Pi will boot up automatically.
-
+* **Step 2:** Insert your microSD card into your computer. Your card should be 8GB or larger. Download, install and run Raspberry Pi Imager.
+* **Step 3:** Click the "Choose Device" option. A list of Pi boards appears. Select the **Raspberry Pi3**.  
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/3c3a750a-215c-4c0c-a7bd-6ba4a6f0d9d0" width="50%">  
+* **Step 4:** Click the "Choose OS" option. Select the **Raspberry Pi OS(Legacy)**. Click "Choose Storage and select" your card from the menu then click next.  
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/f5c52413-9d13-46ff-8759-16b3d67ffb6b" width="50%">  
+* **Step 5:** Click Edit Settings from the pop-up.    
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/33b4611c-bc11-43bf-9a02-7c6bfefd7c81" width="50%">
+* **Step 6:** Fill in all the fields on the General tab: hostname, username / password, wireless LAN (if you plan to use Wi-Fi, and locale settings.  
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/ecc2dc77-3176-49a8-a671-a299cdb0e1e3" width="50%">
+* **Step 7:** On the Services tab, toggle enable SSH to on and select "Use password authentication."  Then click Save.
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/a8d37048-27f3-48d7-9d1d-1c85f4621a91" width="50%">
+* **Step 8:** Click Yes to apply OS customization settings. Click Yes to confirm that you want to write to your microSD card.  
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/3aa541aa-63ef-4e83-852d-9c23bc01294d" width="50%">  
+* **Step 5:** The system will now take a few minutes to download the OS and write it to your card.
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/610e68f1-5fdd-43b9-89a4-3772b23b7881" width="50%">  
+  It will look like this if the verifying and writing is done.  
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/4e2fcc9d-d763-4a92-97e2-b28dd0ecddcb" width="50%">
 ### 2. Connecting to Raspberry Pi via SSH using the terminal.
 * **Step 1:** Find Raspberry Pi IP Address. Use a network scanning tool or check your router's connected devices to find the IP address assigned to your Raspberry Pi.  
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/25bbb021-d402-49af-963a-669f81ca1d20" width="50%">
