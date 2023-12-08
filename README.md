@@ -42,20 +42,21 @@ sudo apt install phpmyadmin.
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/849148fd-e30f-467d-98ac-d472bca0ad49" width="50%">
 * **Step 5:** Next, run and install **sudo apt install php libapache2-mod-php php-mysql** on your terminal.
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/29b377b5-62f0-49e0-b42d-f70cd77de590" width="50%">
-
 * **Step 6:** Next, the last step is to run and install **sudo apt-get install php***, **sudo apt install phpmyadmin** on you terminal.
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/90fd215f-3722-409c-91db-3332e7384523" width="50%">
-* 
-* 
 ### 4. Enabling and controlling Raspberry Pi using VNC.
-* **Step 1:** Enabling VNC Server. Enter the command **sudo raspi-config** to your computer terminal.
-* **Step 2:** Use the arrow keys to select Interfacing Options and press Enter.  
+* **Step 1:** Installing RealVNC Server on Raspberry Pi: **sudo apt install realvnc-vnc-server**
+* **Step 2:** Enabling VNC Server. Enter the command **sudo raspi-config** to your computer terminal.
+* **Step 3:** Use the arrow keys to select Interfacing Options and press Enter.  
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/f15b59fc-f6a7-493c-a9f7-adb82fc9e9e2" width="50%">
-* **Step 3:**  Use the arrow keys to select VNC and press Enter.  
+* **Step 4:**  Use the arrow keys to select VNC and press Enter.  
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/322f4ad9-71ee-4db1-bee6-4273ee000bf7" width="50%">
-* **Step 3:** You will be prompted to enable VNC Server. Select Yes and press Enter.  
- <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/b29e26f5-5015-44b3-9988-7c91c2a121b5" width="50%">
-* **Step 4:** Install RealVNC Server on Raspberry Pi: **sudo apt install realvnc-vnc-server**
-* **Step 5:**
-* 
-
+* **Step 5:** You will be prompted to enable VNC Server. Select Yes and press Enter.  
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/b29e26f5-5015-44b3-9988-7c91c2a121b5" width="50%">  
+* **Step 6:** Use the arrow keys to select Ok and then Finish, to return to the terminal.
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/8669592b-ad60-439a-8886-b1d4343db8bd" width="50%">
+* **Step 7:** Download and install RealVNC Viewer on your computer.  
+  <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/d291daaa-43d8-4569-92d1-06c0d593f494" width="50%">
+* **Step 8:** Open VNC Viewer and enter the IP address of your Raspberry Pi. Log in with the Raspberry Pi credentials.
+* **Step 9:**  Control Raspberry Pi through VNC: You can now use the VNC viewer to interact with the Raspberry Pi desktop as if you were physically connected to it. You can launch applications, configure settings, and manage your Raspberry Pi remotely.
+  
