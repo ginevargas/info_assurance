@@ -65,7 +65,7 @@ sudo apt install phpmyadmin.
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/322f4ad9-71ee-4db1-bee6-4273ee000bf7" width="50%">
 * **Step 5:** You will be prompted to enable VNC Server. Select Yes and press Enter.  
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/b29e26f5-5015-44b3-9988-7c91c2a121b5" width="50%">  
-* **Step 6:** Use the arrow keys to select Ok and then Finish, to return to the terminal.
+* **Step 6:** Use the arrow keys to select Ok and then Finish, to return to the terminal.  
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/8669592b-ad60-439a-8886-b1d4343db8bd" width="50%">
 * **Step 7:** Download and install RealVNC Viewer on your computer.  
   <img src= "https://github.com/ginevargas/info_assurance/assets/145625291/d291daaa-43d8-4569-92d1-06c0d593f494" width="50%">
